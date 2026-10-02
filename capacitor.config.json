@@ -1,0 +1,6 @@
+{
+  "appId": "com.footballclash.pro",
+  "appName": "PSP Football",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
