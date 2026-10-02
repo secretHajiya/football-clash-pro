@@ -1,21 +1,16 @@
 {
-  "name": "psp-football",
+  "name": "football-clash-pro",
   "version": "1.0.0",
-  "private": true,
-  "type": "module",
+  "main": "App.tsx",
   "scripts": {
-    "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
-    "android:add": "npx cap add android",
-    "cap:sync": "npx cap sync android"
+    "start": "expo start",
+    "android": "expo start --android"
   },
   "dependencies": {
-    "@capacitor/core": "^7.4.3",
-    "@capacitor/android": "^7.4.3",
-    "@capacitor-community/admob": "^7.0.0"
-  },
-  "devDependencies": {
-    "@capacitor/cli": "^7.4.3",
-    "vite": "^6.3.5"
+    "expo": "~51.0.0",
+    "react": "18.2.0",
+    "react-native": "0.74.1",
+    "react-native-google-mobile-ads": "^14.0.0",
+    "expo-status-bar": "~1.12.1"
   }
 }
