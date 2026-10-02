@@ -1,6 +1,11 @@
 {
   "appId": "com.footballclash.pro",
-  "appName": "PSP Football",
+  "appName": "Football Clash Pro",
   "webDir": "dist",
-  "bundledWebRuntime": false
+  "bundledWebRuntime": false,
+  "plugins": {
+    "AdMob": {
+      "appId": "ca-app-pub-9958539812897899~2242325345"
+    }
+  }
 }
